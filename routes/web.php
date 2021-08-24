@@ -21,3 +21,9 @@ Route::get('/login',function(){ return view('login'); });
 Route::get('/register',function(){ return view('register'); });
 
 Route::get('/app',function(){ return view('app'); });
+
+
+
+Route::get('/create-team',function(){
+    return view('team-create');
+});

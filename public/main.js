@@ -88,9 +88,10 @@ if(loginForm){
                     _id : data.data.authToken,
                     avatar : data.data.me.avatarUrl,
                     name : data.data.me.name,
+                    username : data.data.me.username,
                     email : data.data.me.emails,
                     authToken : data.data.authToken,
-                    userId :data.data.userId
+                    userId :data.data.userId,
                  };
 
                 localStorage.setItem("auth", JSON.stringify(auth) ); 

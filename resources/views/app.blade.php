@@ -1,53 +1,3 @@
-{{-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="{{ asset('chat.js') }}" defer></script>
-    <link rel="stylesheet" href="{{ asset("main.css") }}">
-</head>
-<body> --}}
-{{-- 
-
-    <section class="channel__list">
-        <span>
-            General
-        </span>
-        <span>
-            abc
-        </span>
-        <span>
-            xyz
-        </span>
-    </section>
-
-
-    <section class="chat__box"> 
-     
-        <div class="chat__box-msg">
-            <p>h1</p>
-            <p>h1</p>
-            <p>h1</p>
-            <p>h1</p>
-    
-            <p>h1</p>
-            <p>h1</p>
-            <p>h1</p>
-    
-        </div>
-
-        <form  id="send-msg" >
-            <input type="text" name="msg" placeholder="enter your msg">
-            <button type="submit"> Send</button>
-        </form>
-
-    </section> --}}
-    
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -114,6 +64,17 @@
                 </button>
 
 
+                {{-- teams --}}
+
+                <div class="team__list">
+                
+                    <button>
+                        <span>A team</span>
+                    </button>
+
+                    
+                </div>
+
 
             </div>
 
@@ -124,6 +85,12 @@
 
 
         <section class="chat__box">
+
+            <div class="welcome__box">
+                <h1>Hello...</h1>
+                <img src="https://thumbs.dreamstime.com/b/welcome-vector-illustration-opening-web-page-banner-presentation-social-media-documents-posters-greeting-cards-217942472.jpg" alt="" srcset="">
+                <h2 class="welcome__box-name">NO Name</h2>
+            </div>
 
             <div class="chat__box-msg">
               
@@ -169,3 +136,21 @@
 </body>
 
 </html>
+
+{{-- 
+    {
+    "team": {
+        "_id": "6124dbdb4fa436000962f787",
+        "name": "a_team",
+        "type": 0,
+        "createdAt": "2021-08-24T11:45:31.004Z",
+        "createdBy": {
+            "_id": "HhwBEuSAriRv5Gtzu",
+            "username": "monkey"
+        },
+        "_updatedAt": "2021-08-24T11:45:31.004Z",
+        "roomId": "Cj9NfEo5cj9GttYwq"
+    },
+    "success": true
+}
+ --}}
