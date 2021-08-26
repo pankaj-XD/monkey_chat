@@ -6,15 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="{{ asset('chat.js') }}" defer></script>
+    {{-- <script src="{{ asset('chat.js') }}" defer></script> --}}
+     <script src="{{ asset('chat2.js') }}" defer></script>
     <link rel="stylesheet" href="{{ asset("main.css") }}">
 </head>
 
 <body>
 
     <main>
-
-
 
         <!-- left -->
         <section class="left">
@@ -28,8 +27,6 @@
                     <strong class="channel__name">abc</strong>
                 </button> --}}
 
-
-              
 
 
             </div>
@@ -66,14 +63,14 @@
 
                 {{-- teams --}}
 
-                <div class="team__list">
+                {{-- <div class="team__list">
                 
                     <button>
                         <span>A team</span>
                     </button>
 
                     
-                </div>
+                </div> --}}
 
 
             </div>
@@ -136,21 +133,3 @@
 </body>
 
 </html>
-
-{{-- 
-    {
-    "team": {
-        "_id": "6124dbdb4fa436000962f787",
-        "name": "a_team",
-        "type": 0,
-        "createdAt": "2021-08-24T11:45:31.004Z",
-        "createdBy": {
-            "_id": "HhwBEuSAriRv5Gtzu",
-            "username": "monkey"
-        },
-        "_updatedAt": "2021-08-24T11:45:31.004Z",
-        "roomId": "Cj9NfEo5cj9GttYwq"
-    },
-    "success": true
-}
- --}}
